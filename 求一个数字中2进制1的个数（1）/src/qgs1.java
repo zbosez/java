@@ -11,11 +11,8 @@ public class qgs1 {
         int num =15;
         int count1 =0;
         while(num!=0){
-            if((num&1)==1){
-                num&=(num-1);
-                count1++;
-            }
-            num>>>=1;
+             num&=(num-1);
+             count1++;
         }
         System.out.println(count1);
     }
