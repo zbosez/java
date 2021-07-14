@@ -12,7 +12,6 @@ public class fda2 {
         int count1 =0;
         while(num!=0){
             if((num&1)==1){
-                num&=(num-1);
                 count1++;
             }
             num>>>=1;
