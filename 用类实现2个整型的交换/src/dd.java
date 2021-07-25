@@ -1,6 +1,5 @@
 class Func{
     public int num;
-
 }
 public class dd {
     public static void Swap(Func x,Func y){
