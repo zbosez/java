@@ -23,7 +23,7 @@ public class dd {
         System.out.println(myArrayList.search(1));
         myArrayList.setPos(3,109);
         myArrayList.display();
-        myArrayList.remove(2);
+        myArrayList.remove(3);
         myArrayList.display();
     }
 }
