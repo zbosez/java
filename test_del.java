@@ -11,8 +11,8 @@ public class test_del {
         DataSource dataSource = new MysqlDataSource();
         ((MysqlDataSource)dataSource).setUrl("jdbc:mysql://127.0.0.1:3306/" +
                 "z1?characterEncoding=utf-8&useSSL=true");
-        ((MysqlDataSource)dataSource).setUser("root");
-        ((MysqlDataSource)dataSource).setPassword("zbosszsql");
+        ((MysqlDataSource)dataSource).setUser("usename");
+        ((MysqlDataSource)dataSource).setPassword("password");
         Connection connection = dataSource.getConnection();
 
         Scanner scanner = new Scanner(System.in);
